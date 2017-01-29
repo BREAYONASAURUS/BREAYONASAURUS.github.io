@@ -4,16 +4,33 @@
 		<meta charset="utf-8">
         <meta name="description" content="Practice Exercise 2">
         <title>Practice Exercise 2</title>
-	    <link href="../css/style.css" rel="stylesheet" type="text/css">        
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="../css/style.css" rel="stylesheet" type="text/css"> 
 	</head>
 	<body>
-	 <nav>
-         <a href="../index.html">Home</a> &nbsp;
-         <a href="pex1.html">Practice Exercise 1</a> &nbsp; 
-         <a href="pex2.html">Practice Exercise 2</a>		 
+	  <nav class="navbar navbar-inverse">
+	     <div class="container-fluid"> 
+		     <div class="navbar-header">
+			     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>                        
+                 </button>
+				 </div>
+				 <div class="collapse navbar-collapse" id="myNavbar">
+				     <ul class="nav navbar-nav">
+                         <li><a href="../index.html">Home</a> &nbsp; </li>
+                         <li><a href="pex1.html">Practice Exercise 1</a> &nbsp; </li>
+                         <li class="active"><a href="pex2.html">Practice Exercise 2</a></li>
+                     </ul>						 
+			     </div>
+         </div>			 
      </nav>
 	 <h1>Practice Exercise 2</h1>
 	 <br>
+	 <div id= "main">
 	 <dl>
 	     <dt>
 		     <strong>Different Kinds of Fruit</strong>
@@ -43,7 +60,8 @@
 	     </ul>
 	 <br>
      <br>
-     <br>	 
+     <br>
+     </div>	 
 	 <footer>
 	     <hr>
 	     <small>Coding by Breayona Reed</small><br>

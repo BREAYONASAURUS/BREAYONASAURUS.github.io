@@ -1,31 +1,48 @@
 body{
-	background-color: lightblue;
+	background: #E5E338;
 }
 h1{
-	text-align: center;
-	font-family: arial;
+	 text-align: center;
+	 font-family: arial;
+	 color: #4EC5C1;
 }
 h2{
-	text-align: center;
-	font-family: verdana;
+	 text-align: center;
+	 font-family: verdana;
+	 color: #EC576B;
 }
 p{
-	text-align: center;
+	 text-align: center;
 }
-a{
-	color: #FF0000;
+footer {
+      background-color: #000000;
+      color: white;
+      padding: 15px;
 }
 #img1{
-	width: 400px; 
-	height: 250px; 
-	border: 5px solid red;
+	 width: 400px; 
+	 height: 250px; 
+	 border: 5px solid #EC576B;;
 	
 }
 #img2{
-	width: 300px; 
-	height: 200px;
+	 width: 300px; 
+	 height: 200px;
 }
 #img3{
-	width: 200px; 
-	height: 125px;
+	 width: 200px; 
+	 height: 125px;
+}
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+}
+#main{
+	margin-left: auto;
+	margin-right: auto;
+	width:80%;
+}
+.jumbotron{
+	background-color: #EC576B;
+	color: #4EC5C1;
 }
