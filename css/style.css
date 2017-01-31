@@ -2,11 +2,11 @@
 
 h1{
 	 text-align: center;
-	 font-family: arial;	 
+	 font-family: "Trebuchet MS", Helvetica, sans-serif	 
 }
 h2{
 	 text-align: center;
-	 font-family: verdana;
+	 font-family: Verdana,Geneva, san-serif;
 }
 p{
 	 text-align: center;
@@ -15,8 +15,16 @@ p{
       margin-bottom: 0;
       border-radius: 0;
 }
+.panel-footer{
+	font-size: .875em;
+}
 #main{
 	margin-left: auto;
 	margin-right: auto;
 	width:80%;
+	font-family: "Times New Roman", Times, serif;
+}
+#aboutMe{
+	text-align: left;
+	margin: 100px;
 }
