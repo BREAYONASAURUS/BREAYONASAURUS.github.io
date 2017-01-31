@@ -1,0 +1,22 @@
+/*This CSS page is for colors*/
+
+body{
+	 background: #E5E338;
+}
+h1{
+	 color: #4EC5C1;
+}
+h2{
+	 color: #EC576B;
+}
+footer{
+	 background-color: #000000;
+     color: white;
+}
+.jumbotron{
+	background-color: #EC576B;
+	color: #000000;
+}
+#mainPageText{
+	color: #4EC5C1;
+}
