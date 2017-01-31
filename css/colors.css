@@ -1,22 +1,22 @@
 /*This CSS page is for colors*/
 
 body{
-	 background: #E5E338;
+	 background: #4D505B;
 }
 h1{
-	 color: #4EC5C1;
+	 color: #16A79D;
 }
 h2{
-	 color: #EC576B;
+	 color: #80628B;
 }
 footer{
 	 background-color: #000000;
-     color: white;
+     color: #ffffff;
 }
 .jumbotron{
-	background-color: #EC576B;
-	color: #000000;
+	background-color: #CF4858;
+	color: #ffffff;
 }
-#mainPageText{
-	color: #4EC5C1;
+#main{
+	color: #ffffff;
 }
