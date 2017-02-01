@@ -1,19 +1,19 @@
 /*This CSS page is for image formating*/
 
 #img1{
-	 width: 400px; 
-	 height: 250px; 
-	 border: 5px solid #F4AC42;
+	 width: 25em; 
+	 height: 15.625em; 
+	 border: .313em solid #F4AC42;
 }
 #img2{
-	 width: 300px; 
-	 height: 200px;
+	 width: 18.750em; 
+	 height: 12.500em;
 }
 #img3{
-	 width: 200px; 
-	 height: 125px;
+	 width: 12.500em; 
+	 height: 7.813em;
 }
 #yogaSilo{
-	width: 250px;
-	height: 350px;
+	width: 15.625em;
+	height: 21.875em;
 }
