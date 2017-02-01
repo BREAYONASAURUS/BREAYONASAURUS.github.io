@@ -1,0 +1,28 @@
+#anime{
+	width: 100px;
+    height: 100px;
+    background-color: #CF4858;
+    position: relative;
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 4s; 
+    -webkit-animation-iteration-count: infinite; 
+    -webkit-animation-direction: alternate; 
+    animation-name: box;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+}
+@-webkit-keyframes  box {
+    0%   {background-color:#CF4858; left:0px; top:0px;}
+    25%  {background-color:F4AC42; left:450px; top:0px;}
+    50%  {background-color:#16A79D; left:450px; top:250px;}
+    75%  {background-color:80628B; left:0px; top:250px;}
+    100% {background-color:#CF4858; left:0px; top:0px;}
+}
+@keyframes box {
+    0%   {background-color:#CF4858; left:0px; top:0px;}
+    25%  {background-color:F4AC42; left:450px; top:0px;}
+    50%  {background-color:#16A79D; left:450px; top:300px;}
+    75%  {background-color:80628B; left:0px; top:300px;}
+    100% {background-color:#CF4858; left:0px; top:0px;}
+}
