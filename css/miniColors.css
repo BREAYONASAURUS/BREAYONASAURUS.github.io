@@ -11,6 +11,9 @@ footer{
 h1{
 	color: #6B5CA5;
 }
+h2{
+	color: #2D2D2D;
+}
 h3{
 	color: #ED7D3A;
 }
@@ -22,4 +25,14 @@ p{
 }
 .navbar{
 	background-color: #000000;
+}
+#aboutmehead{
+	background-color: #6B5CA5;
+	color: #2D2D2D;
+}
+#aboutmetext{
+	background-color: #ED7D3A;
+}
+#me{
+	border-color: #2D2D2D;
 }
