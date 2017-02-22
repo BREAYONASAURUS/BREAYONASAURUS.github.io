@@ -35,3 +35,8 @@
       width: 70%;
       margin: auto;
   }
+  .navTrans{
+	  transition: 0s;
+	  opacity: 0.5;
+	  font-weight: bold;
+  }

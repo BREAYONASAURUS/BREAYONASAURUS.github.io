@@ -81,5 +81,17 @@
 	 <footer class="container-fluid text-center">
          <p>Website Created by Breayona Reed</p>
      </footer>
+	 
+	 <script>
+         $(document).ready(function(){
+             $(document).scroll(function(){
+                 $(".navbar").addClass("navTrans");
+				 if($(document).scrollTop() == 0){
+				     $(".navbar").removeClass("navTrans");
+				    }
+				});
+            });
+	 </script>
+	 
 	</body>
 </html>	
