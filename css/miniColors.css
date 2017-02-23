@@ -17,7 +17,16 @@ h2{
 h3{
 	color: #ED7D3A;
 }
+h4{
+	color:#2D2D2D;
+}
 p{
+	color: #ffffff;
+}
+dt{
+	color: 2D2D2D;
+}
+dd{
 	color: #ffffff;
 }
 #side{
