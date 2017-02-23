@@ -1,12 +1,18 @@
 /* Remove the navbar's default margin-bottom and rounded borders */ 
-    .navbar {
+   html,body{
+	   height:100%
+   }
+   .navbar {
       margin-bottom: 0;
       border-radius: 0;
     }
     footer {
       padding: 15px;
+	  height: 60px;
     }
 	#main{
+		min-height: 100%;
+        height: auto;
 		margin-top: 70px;
 	}
 	#carousel{
@@ -39,4 +45,7 @@
 	  transition: 0s;
 	  opacity: 0.5;
 	  font-weight: bold;
+  }
+  .textFix{
+	  
   }
