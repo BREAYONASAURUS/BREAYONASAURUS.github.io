@@ -10,6 +10,10 @@
       padding: 15px;
 	  height: 60px;
     }
+	button{
+		margin:20px;
+		
+	}
 	#main{
 		min-height: 100%;
         height: auto;
