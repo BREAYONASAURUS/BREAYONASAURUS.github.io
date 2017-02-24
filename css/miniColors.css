@@ -1,3 +1,4 @@
+/*This page is for colors and fonts*/
 body{
 	background-color: #ABABAB;
 }
@@ -10,18 +11,23 @@ footer{
 }
 h1{
 	color: #6B5CA5;
+	font-family: Impact, Charcoal, sans-serif;
 }
 h2{
 	color: #2D2D2D;
+	font-family: Impact, Charcoal, sans-serif;
 }
 h3{
 	color: #ED7D3A;
+	font-family: Impact, Charcoal, sans-serif;
 }
 h4{
 	color:#2D2D2D;
+	font-family: Verdana, Geneva, sans-serif;
 }
 p{
 	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
 }
 dt{
 	color: #2D2D2D;
@@ -48,4 +54,8 @@ dd{
 button{
 	background-color: #6B5CA5;
 	color: #ffffff;
+	font-family: Verdana, Geneva, sans-serif;
+}
+.navbar-brand{
+	font-family: Verdana, Geneva, sans-serif;
 }
