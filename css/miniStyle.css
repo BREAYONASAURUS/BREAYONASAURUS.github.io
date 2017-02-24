@@ -24,11 +24,9 @@
 	}
 	#midSect{
 		height: 100%;
+		padding: 40px;
 	}
-	#side{
-		height:100%;
-		padding-bottom:28.5%;
-	}
+
 	#aboutmehead{
 		font-size: 70px;
 		text-align: left;
