@@ -10,8 +10,9 @@
 		<link href="../css/style.css" rel="stylesheet" type="text/css"> 
 	    <link href="../css/colors.css" rel="stylesheet" type="text/css">
 		<link href="../css/images.css" rel="stylesheet" type="text/css">
+		<script src="../js/pex6.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-
+     </head>
 	<body>
 	  <nav class="navbar navbar-inverse navbar-fixed-top">
 	     <div class="container-fluid"> 
@@ -43,7 +44,9 @@
          </div>			 
      </nav>
 	 <div class="container-fluid main" style="margin-top:70px">
-
+         <p id="dandt"></p>
+         <button type="button" onclick="document.getElementById('dandt').innerHTML = Date()">
+             Click me to display Date and Time.</button>
 	
 	 </div>
 	 <footer class= "container-fluid">
