@@ -35,7 +35,7 @@ function validateForm() {
 				if(pword == "1234"){
 			      alert("Thank you for submitting!");
 				}
-				if(pword == ''){
+				else if(pword == ''){
 					alert("Please enter password!")
 				}
 				else{
