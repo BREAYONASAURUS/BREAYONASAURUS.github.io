@@ -44,11 +44,22 @@
          </div>			 
      </nav>
 	 <div class="container-fluid main" style="margin-top:70px">
-         <p id="dandt"></p>
-         <button type="button" onclick="document.getElementById('dandt').innerHTML = Date()">
-             Click me to display Date and Time.</button>
-	
+         <h3 id="dandt" style="text-align:right"></h3>
+		 <div id="test"></div>
+		 <form id="main" name = "myForm" onsubmit="return validateForm()">
+             <fieldset>
+                 <legend><h2 style="text-align:left">Personal information:</h2></legend>
+                 <p style="text-align:left">First name:</p><br>
+                 <input type="text" name="firstname">
+                 <br><br>
+                 <p style="text-align:left">Last name:</p><br>
+                 <input type="text" name="lastname">
+                 <br><br>
+                 <input type="submit" value="Submit">
+             </fieldset>
+         </form>
 	 </div>
+	 
 	 <footer class= "container-fluid">
 	     <div class= "panel-footer">
 	         Website Created by Breayona Reed<br>
