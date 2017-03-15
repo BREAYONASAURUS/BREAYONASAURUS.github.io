@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="description" content="About Me">
+        <title>ENGL 313 Portfolio</title>
+		<link rel="icon" type="image/gif" href="../../img/personal-logo.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/ffad77fbe2.js"></script>
+		<link href="../../css/miniStyle.css" rel="stylesheet" type="text/css">
+	    <link href="../../css/miniColors.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	  <nav class="navbar navbar-inverse navbar-fixed-top">
+	     <div class="container-fluid"> 
+		     <div class="navbar-header">
+			     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span> 				 
+                 </button>
+				 <img src="../../img/personal-logo-large.png" alt="logo" style="padding:5px"class="navbar-brand">
+				 <a class="navbar-brand"href="subIndex.html">Breayona Reed's Portfolio</a>				 
+				 </div>
+				 <div class="collapse navbar-collapse" id="myNavbar">
+				     <ul class="nav navbar-nav">
+                         <li><a href="subIndex.html">Home</a></li>
+						 <li class="active"><a href="resume.html">Resume</a></li>
+                         <li><a href="aboutMe.html">About Me</a></li>						 
+                     </ul>	
+					 <ul class="nav navbar-nav navbar-right">
+                         <li><a href="../../index.html"><span class="glyphicon glyphicon-log-in"></span> Back to Main Page</a></li>
+                     </ul>
+			     </div>
+         </div>			 
+     </nav>
+	 
+	 <div class="container-fluid" id="main" style="margin-top:50px">
+	     <div class="row">
+		     <div class="col-sm-6"style="background-color: #ED7D3A; float: left; padding:40px">
+	             <h1><i class="fa fa-graduation-cap" aria-hidden="true">&nbsp;</i>EDUCATION</h1>
+                     <h4 style="color:#ffffff">Iowa State University: Ames, IA | Bachelor of Science, Technical Communication</h4>
+                     <p style="color:#2D2D2D">Expected Graduation: May 2018</p>
+
+                 <h1><i class="fa fa-briefcase" aria-hidden="true"></i>&nbsp;WORK EXPERIENCE</h1>
+		             <dl>
+                         <dt>Electrical & Computer Engineering Student Services: Ames, IA  (August 2016 - Present)  </dt> 
+                             <dd><ul>Assisted in appointment scheduling and entering important information</ul></dd> 
+                         <dt> Cyclone Aide: Ames, IA (January 2016 – January 2017)</dt>
+                             <dd><ul>Helped acclimate incoming freshman students during summer orientation</ul></dd>
+                         <dt>KONE Customer Care Center: Moline, IL  (June 2015 – August 2015) </dt>
+                             <dd><ul>Provided customer service to companies with broken elevator or escalator equipment</ul></dd>
+                         <dt>Clyde’s Sports Club/West Side Market: Ames, IA  (August 2014 - May 2016) </dt>
+                             <dd><ul>Prepped/Cooked food to be sold to customers</ul></dd>
+                     </dl>
+					 
+                 <h1><i class="fa fa-file-code-o" aria-hidden="true"></i>&nbsp;SKILLS</h1>
+                     <p>Programming Languages: HTML, CSS, JavaScript, C, Java</p>
+                     <p>Frameworks: Bootstrap, AngularJS</p>
+                     <p>Tools: Microsoft Office</p>
+
+                 <h1><i class="fa fa-puzzle-piece" aria-hidden="true"></i>&nbsp;ACTIVITIES</h1>
+		             <dl>
+                         <dt>Society of Technical Communication, Spring 2017-Present</dt>
+                             <dd><ul>President (Spring 2017-Present)</ul></dd>
+                         <dt>T.E.A.M. Tour Guide, Summer 2016-Fall 2016 </dt>
+                         <dt>HackISU, Spring 2016</dt>
+                         <dt>Destination Iowa State Team Leader, Fall 2015</dt>
+                         <dt>Sigma Lambda Gamma National Sorority Inc., Fall 2014 - Present</dt>
+                             <dd><ul>Historian (Spring 2015)</ul></dd>
+                             <dd><ul>Ritual Chair (Spring 2015)</ul></dd>
+                             <dd><ul>Vice President of Recruitment (Fall 2015-Spring 2016)</ul></dd>
+                         <dt>Leadership through Engineering Academic Diversity Learning Community, 2014 -2015</dt>
+                         <dt>Academic Program for Excellence for Engineers (APEX-E), Summer 2014</dt>
+                     </dl>
+			  </div>
+			  <div class="col-sm-6 text-center"style="background-color: #2D2D2D; float: right">
+			     <img src="../../img/flower-butterfly.jpg" alt="butterfly" class="img-responsive" style="margin-top:40px" width="600" height="400">
+				 <p>Picture by Breayona Reed</p>
+			     <button type="submit" class="btn-lg"onclick="window.open('../../BreayonaReedResume.pdf')">
+				 <span class="glyphicon glyphicon-download-alt"style="padding:5px" ></span>
+				 Download Resume</button>
+				 <button type="submit" class="btn-lg"onclick="window.open('../../BreayonaReedResume.pdf')">
+				 <span class="glyphicon glyphicon-print"style="padding:5px" ></span>
+				 Printer-friendly Resume</button>
+			  </div>
+			</div>
+	 </div>
+	 
+	 <footer class="container-fluid text-center">
+         <p>Website Created by Breayona Reed</p>
+     </footer>
+	 
+	 <script>
+         $(document).ready(function(){
+             $(document).scroll(function(){
+                 $(".navbar").addClass("navTrans");
+				 if($(document).scrollTop() == 0){
+				     $(".navbar").removeClass("navTrans");
+				    }
+				});
+            });
+	 </script>
+	 
+	</body>
+</html>	
