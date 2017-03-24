@@ -35,3 +35,7 @@ footer{
 #aboutMe{
 	background-color: #000000;
 }
+.ui-dialog .ui-dialog-titlebar {
+	background-color: #CF4858;
+	color: #ffffff;
+}
