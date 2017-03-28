@@ -40,7 +40,6 @@
   .navTrans{
 	 transition: 0s;
 	 opacity: 0.5;
-	 font-weight: bold;
     }
 	.accordHeader{
      background-color: #6f1889;
@@ -51,7 +50,13 @@
 	 background-color: #f90269; 
      font-weight: bold;
      color: #000000; 
-	}		
+	}	
+    .navbar{
+	 font-weight: bold;
+	}	
+    .nav.navbar-nav > li > a:hover {
+      color: #f90269;
+    }
 
 	@media only screen and (min-width: 769px) {
 	  #main{
