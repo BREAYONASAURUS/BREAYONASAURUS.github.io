@@ -55,10 +55,6 @@
 	.thumbnail {
        margin-bottom: 30px;
     }
-  .navTrans{
-	 transition: 0s;
-	 opacity: 0.5;
-    }
 	.accordHeader{
      background-color: #6f1889;
 	 font-weight: bold;
