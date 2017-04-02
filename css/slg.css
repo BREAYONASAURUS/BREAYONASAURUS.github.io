@@ -17,6 +17,17 @@
 	h4{
      color: #000000;		
 	}
+	button{
+		background-color: black;
+	}
+	button a{
+		color: #f90269;
+	}
+	button a:hover{
+		text-decoration: none;
+		color: #6f1889;
+		cursor: pointer;
+	}
   #main{
 	 min-height: 100%;
      height: auto;
@@ -84,7 +95,7 @@
 		 height: 380px;
 		}
       #section5{
-		  height:820px; 
+		  height:1100px; 
 	  }
 	}
 	@media only screen and (max-width: 768px){
@@ -99,7 +110,7 @@
 		 height: 380px;
 		}
       #section5{
-		  height: 1550px;
+		  height: 1600px;
 	  }		
 	}
 	@media only screen and (max-width: 320px){
