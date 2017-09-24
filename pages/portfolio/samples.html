@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <meta name="description" content="Home Page">
+        <title>Breayona's Portfolio</title>
+		<link rel="icon" type="image/png" href="../../img/PersonalLogo.png">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link href="../../css/miniStyle.css" rel="stylesheet" type="text/css">
+	    <link href="../../css/miniColors.css" rel="stylesheet" type="text/css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+	  <nav class="navbar navbar-inverse navbar-fixed-top">
+	     <div class="container-fluid"> 
+		     <div class="navbar-header">
+			     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span> 				 
+                 </button>
+				 <img src="../../img/PersonalLogo.svg" alt="logo" style="padding:5px"class="navbar-brand">
+				 <a class="navbar-brand"href="../../Index.html">Breayona Reed's Portfolio</a>
+				 </div>
+				 <div class="collapse navbar-collapse" id="myNavbar">
+				     <ul class="nav navbar-nav">
+                         <li><a href="../../Index.html">Home</a></li>
+						 <li><a href="resume.html">Resume</a></li>
+						 <li class="active"><a href="samples.html">Sample Work</a></li>
+                         <li><a href="aboutMe.html">About Me</a></li>
+                         <li><a href="../ENGL313/subindex.html">Rhetorical Web Design Portfolio</a></li>						 
+                     </ul>	
+			     </div>
+         </div>			 
+     </nav>
+	 
+<div class="container-fluid text-center" id="main">    
+ 
+     <h1>This page is under construction!</h1>
+  </div>
+
+
+<footer class="container-fluid text-center">
+  <p>Website Created by Breayona Reed</p>
+</footer>
+
+	 <script>
+         $(document).ready(function(){
+             $(document).scroll(function(){
+                 $(".navbar").addClass("navTrans");
+				 if($(document).scrollTop() == 0){
+				     $(".navbar").removeClass("navTrans");
+				    }
+				});
+            });
+	 </script>
+	 
+	</body>
+</html>	
